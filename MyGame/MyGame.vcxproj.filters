@@ -1,0 +1,199 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Game Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Framework Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Framework Files\Camera">
+      <UniqueIdentifier>{a6330225-9770-4463-a910-41959cda1239}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework Files\Props">
+      <UniqueIdentifier>{962d3aa1-4165-4c5a-a1fc-10581b273793}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework Files\Enemies">
+      <UniqueIdentifier>{f69c85e1-5ab9-491b-94d5-ad8d177f4726}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework Files\Level">
+      <UniqueIdentifier>{aee32880-83f6-48f3-b25a-de20f05165f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework Files\Avatar">
+      <UniqueIdentifier>{db081893-4532-44b5-8adf-52c5ee7844cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework Files\Sound">
+      <UniqueIdentifier>{f6db7d28-7111-42c6-96b1-fb8389406eba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework Files\Enemies\Spider">
+      <UniqueIdentifier>{033a6c4b-a00c-48cc-8320-733df8377c7d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework Files\Enemies\Snake">
+      <UniqueIdentifier>{994b03fa-9625-435c-888c-461530adf98f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework Files\Props\Rock">
+      <UniqueIdentifier>{1db6d7d2-7f7e-4d5b-8c68-9df0176a8126}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework Files\Props\Pot">
+      <UniqueIdentifier>{1bacc571-fcb0-458a-a16f-9c228801ddf0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework Files\HUD">
+      <UniqueIdentifier>{b1884600-57c5-457e-aee7-788fb9e272fe}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Game.cpp">
+      <Filter>Game Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Game Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector2f.cpp">
+      <Filter>Framework Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Matrix2x3.cpp">
+      <Filter>Framework Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>Framework Files</Filter>
+    </ClCompile>
+    <ClCompile Include="structs.cpp">
+      <Filter>Framework Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SVGParser.cpp">
+      <Filter>Framework Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>Framework Files</Filter>
+    </ClCompile>
+    <ClCompile Include="utils.cpp">
+      <Filter>Framework Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Core.cpp">
+      <Filter>Framework Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Framework Files\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="Level.cpp">
+      <Filter>Framework Files\Level</Filter>
+    </ClCompile>
+    <ClCompile Include="Avatar.cpp">
+      <Filter>Framework Files\Avatar</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundEffect.cpp">
+      <Filter>Framework Files\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundStream.cpp">
+      <Filter>Framework Files\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy.cpp">
+      <Filter>Framework Files\Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyManager.cpp">
+      <Filter>Framework Files\Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="Spider.cpp">
+      <Filter>Framework Files\Enemies\Spider</Filter>
+    </ClCompile>
+    <ClCompile Include="Snake.cpp">
+      <Filter>Framework Files\Enemies\Snake</Filter>
+    </ClCompile>
+    <ClCompile Include="PickUp.cpp">
+      <Filter>Framework Files\Props</Filter>
+    </ClCompile>
+    <ClCompile Include="Rock.cpp">
+      <Filter>Framework Files\Props\Rock</Filter>
+    </ClCompile>
+    <ClCompile Include="Pot.cpp">
+      <Filter>Framework Files\Props\Pot</Filter>
+    </ClCompile>
+    <ClCompile Include="PickUpManager.cpp">
+      <Filter>Framework Files\Props</Filter>
+    </ClCompile>
+    <ClCompile Include="HUD.cpp">
+      <Filter>Framework Files\HUD</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h">
+      <Filter>Framework Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Core.h">
+      <Filter>Framework Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Matrix2x3.h">
+      <Filter>Framework Files</Filter>
+    </ClInclude>
+    <ClInclude Include="structs.h">
+      <Filter>Framework Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SVGParser.h">
+      <Filter>Framework Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>Framework Files</Filter>
+    </ClInclude>
+    <ClInclude Include="utils.h">
+      <Filter>Framework Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector2f.h">
+      <Filter>Framework Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>Game Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Framework Files\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Level.h">
+      <Filter>Framework Files\Level</Filter>
+    </ClInclude>
+    <ClInclude Include="Avatar.h">
+      <Filter>Framework Files\Avatar</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundEffect.h">
+      <Filter>Framework Files\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundStream.h">
+      <Filter>Framework Files\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy.h">
+      <Filter>Framework Files\Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyManager.h">
+      <Filter>Framework Files\Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="Spider.h">
+      <Filter>Framework Files\Enemies\Spider</Filter>
+    </ClInclude>
+    <ClInclude Include="Snake.h">
+      <Filter>Framework Files\Enemies\Snake</Filter>
+    </ClInclude>
+    <ClInclude Include="PickUp.h">
+      <Filter>Framework Files\Props</Filter>
+    </ClInclude>
+    <ClInclude Include="Rock.h">
+      <Filter>Framework Files\Props\Rock</Filter>
+    </ClInclude>
+    <ClInclude Include="Pot.h">
+      <Filter>Framework Files\Props\Pot</Filter>
+    </ClInclude>
+    <ClInclude Include="PickUpManager.h">
+      <Filter>Framework Files\Props</Filter>
+    </ClInclude>
+    <ClInclude Include="HUD.h">
+      <Filter>Framework Files\HUD</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="SDLx64.props" />
+    <None Include="SDLWin32.props" />
+  </ItemGroup>
+</Project>
